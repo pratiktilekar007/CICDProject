@@ -23,7 +23,10 @@ public class UserController {
                 "9876543210"));
 
         user.add(new User(102,"Akshay","akshay@gmail.com",
-                "9876543210"));
+                "0987612345"));
+
+        user.add(new User(103,"Raj","raj@gmail.com",
+                "0987632145"));
 
         return new ResponseEntity<>(user,HttpStatus.CREATED);
     }
