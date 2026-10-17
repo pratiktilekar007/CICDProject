@@ -28,6 +28,9 @@ public class UserController {
         user.add(new User(103,"Raj","raj@gmail.com",
                 "0987632145"));
 
+        user.add(new User(104,"nikhil","nikhil@gmail.com",
+                "0987632145"));
+
         return new ResponseEntity<>(user,HttpStatus.CREATED);
     }
 }
